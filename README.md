@@ -1,7 +1,7 @@
 
 
 <h1>Preforming Activities & Inspecting Network Protocols</h1>
-This tutorial will show how we'll test some network capatiabilities<br />
+This tutorial will show how we'll test some network activity<br />
 
 
 
