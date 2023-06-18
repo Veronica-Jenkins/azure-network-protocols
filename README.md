@@ -1,7 +1,7 @@
 
 
 <h1>Preforming Activities & Inspecting Network Protocols</h1>
-This tutorial outlines we'll test some network capatiability<br />
+This tutorial will show how we'll test some network capatiabilities<br />
 
 
 
@@ -9,7 +9,7 @@ This tutorial outlines we'll test some network capatiability<br />
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Active Directory Domain Services
+- Wireshark
 - PowerShell
 
 <h2>Operating Systems Used </h2>
