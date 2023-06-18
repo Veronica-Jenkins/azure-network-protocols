@@ -18,7 +18,7 @@ This tutorial will show how we'll test some network activity<br />
 - Linux (Ubuntu Server)
 </br>
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Looking Under the Hood with Network Connectivity</h2>
 
 <p>
 <img src="https://i.imgur.com/V0iDDdU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -57,7 +57,13 @@ To test connectivity between VM1 and VM2 we'll use a command called 'ping'. Go t
 <p>
 <img src="https://i.imgur.com/0O9897c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
+<p>
+To stop the endless spamming we'll need to go to VM2's Network Security Group (NSG) - which is Azure's version of a firewall. Select VM2 NSG then go to <b><i>Inbound Security Rules</i></b>  VM2 Sec Group – inbound security rules- click add
+Use commands in screenshot – select – icmp – select deny – name deny-icmp-from-anywhere
+VM1 pings have timed out
+    
+</p>
+<br />
 <p>
 <img src="https://i.imgur.com/fYtDOrT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
