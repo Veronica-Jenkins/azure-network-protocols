@@ -43,7 +43,7 @@ Now that we're logged into VM1 we can download Wireshark (a program used to insp
 <img src="https://i.imgur.com/xCrnsof.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-To test connectivity between VM1 and VM2 we'll use a command called 'ping'. Go to the bottom left-hand corner of the screen and in the search bar type in <b><i>PowerShell</i></b>. This is similar to the Command Line for typing in prompts for the computer's response and troubleshooting. Copy VM2's private IP Address and paste it after typing ping and hit enter. VM2 sends a response. Try the command ping 10.0.0.5 -t. This causes an endless spamming of traffic.     
+To test connectivity between VM1 and VM2 we'll use a command called 'ping'. Go to the bottom left-hand corner of the screen and in the search bar type in <b><i>PowerShell</i></b>. This is similar to the Command Line for typing in prompts for the computer's response and troubleshooting. Copy VM2's private IP Address and paste it after typing ping and hit enter. VM2 sends a response. Try the command ping 10.0.0.5 -t. This causes endless spamming of traffic.     
 </p>
 <br />
 <p>
@@ -58,7 +58,7 @@ To test connectivity between VM1 and VM2 we'll use a command called 'ping'. Go t
 <img src="https://i.imgur.com/0O9897c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-To stop the spamming we'll need to go to VM2's Network Security Group (NSG) - which is Azure's version of a firewall. Select VM2 NSG then go to <b><i>Inbound Security Rules</i></b> and click <b>Add</b>. A new window will open allowing you to create a new rule. For Protocol select <b><i>Icmp</i></b> and for Action select <b><i>Deny</i></b>. In the text field type DENY_ICMP_PING_FROM_ANYWHERE. Click <b>Add</b>.    
+To stop the spamming, we'll need to go to VM2's Network Security Group (NSG) - which is Azure's version of a firewall. Select VM2 NSG then go to <b><i>Inbound Security Rules</i></b> and click <b>Add</b>. A new window will open allowing you to create a new rule. For Protocol select <b><i>Icmp</i></b> and for Action select <b><i>Deny</i></b>. In the text field type DENY_ICMP_PING_FROM_ANYWHERE. Click <b>Add</b>.    
 </p>
 <br />
 <p>
