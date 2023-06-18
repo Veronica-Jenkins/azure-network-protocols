@@ -31,7 +31,10 @@ This tutorial will show how we'll test some network activity<br />
 <p>
 <img src="https://i.imgur.com/Gw7J8yP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
+<p>
+Now that we're logged into VM1 we can download Wireshark (a program used to inspect network traffic). Go to the Wireshark website and download Wireshark <b><i>Windows Installer 64-bit</i></b>. Accept all the prompts. Once Wireshark is installed, open the program and select <b><i>ethernet adapter pack</i></b> - the network traffic is now displayed.
+</p>
+<br />
 <p>
 <img src="https://i.imgur.com/IIJsPez.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -39,7 +42,10 @@ This tutorial will show how we'll test some network activity<br />
 <p>
 <img src="https://i.imgur.com/xCrnsof.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
+<p>
+To test connectivity between VM1 and VM2 we'll use a command called 'ping'. Go to the bottom left-hand corner of the screen and in the search bar type in <b><i>PowerShell</i></b>. This is similar to the Command Line for typing in prompts for the computer's response. Copy VM2's private IP Address and paste it after typing ping and hit enter. VM2 sends a response. Try the command ping 10.0.0.5 -t. This causes an endless spamming of traffic.     
+</p>
+<br />
 <p>
 <img src="https://i.imgur.com/MHtnty9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
