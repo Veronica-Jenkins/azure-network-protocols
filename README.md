@@ -5,7 +5,7 @@ This tutorial will show how we'll test some network activity<br />
 
 
 
-<h2>Environments and Technologies Used</h2>
+</br><h2>Environments & Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
@@ -14,15 +14,9 @@ This tutorial will show how we'll test some network activity<br />
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
-- Windows 10 (21H2)
-
-<h2>High-Level Deployment and Configuration Steps</h2>
-
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Windows 10 (22H2)
+- Linux (Ubuntu Server)
+</br>
 
 <h2>Deployment and Configuration Steps</h2>
 
